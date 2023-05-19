@@ -14,6 +14,7 @@ if(itemInput.value===''){
   li.appendChild(button);
 // Add li to the DOM
 itemList.appendChild(li);
+itemInput.value=''
   
 }
 }
