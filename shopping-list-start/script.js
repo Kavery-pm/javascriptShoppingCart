@@ -24,5 +24,11 @@ const createButton =(classes)=>{
   button.appendChild(icon);
   return button;
 }
+function createIcon(classes) {
+    const icon = document.createElement('i');
+    icon.className = classes;
+    return icon;
+  }
+  
 //event listeners
 itemForm.addEventListener('submit', onAddItemSubmit);
